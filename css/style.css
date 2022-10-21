@@ -1,0 +1,224 @@
+
+.headerSection{
+    background-image: url(../img/events-heavenly-header.jpg);
+    background-size: 100% 100%;
+    height: 95vh;
+}
+.sec1{
+    display: flex;
+    position: relative;
+}
+.layer{
+    background-color:rgba(214, 46, 51, 0.6) ;
+    height: 95vh;
+    position: relative;
+    top: 0px;
+}
+/* <<________________________start nav_____________________>> */
+.navbarr{
+    display: none;
+    width: 0px;
+    background-color: rgb(65,70,88);
+    height: 100vh;
+    position: fixed;
+    z-index: 999999999999;
+    top: 0px;
+    bottom: 0px;
+}
+ul{
+    list-style: none;
+}
+ul li {
+    margin: 30px;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+ul li a:hover{
+    color: rgb(133,74,86);
+}
+.closebtn{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    justify-content: end;
+    margin: 20px;
+
+}
+#closebtn{
+    width: 50;
+    text-align: center;
+}
+#closebtn:hover{
+    color: rgb(133,74,86);
+}
+/* <<_________________start content__________________>> */
+.content{
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    height: 70vh;  
+}
+.content h1{
+    font-size: 60px;
+    
+}
+#openNav{
+    font-size: 35px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    align-items: center; 
+    height: 100vh; 
+    transition: margin-left .6s ;
+    margin-left: 0px;
+    padding-left: 20;
+}
+/*<<___________________paragraphs________________________>>*/
+.paragraphs{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.paragraph{
+    text-align: center;
+    width: 70%;
+    margin: auto; 
+    background-color: rgb(204,204,204);
+    padding: 0px;
+}
+.paragraph h3{
+    background-color: rgb(230,130,133);
+    padding: 10px;
+    color: white;
+    margin: 0px;
+}
+.paragraph p{
+    padding: 5px;
+    margin: 0px;
+    font-size: 18;
+}
+.two , .three , .four{
+    display: none;
+}
+/*<<____________________start counter_______________________>>*/
+
+.counter{
+    background-image: url(..//img/invitation-2508607__340.jpg);
+    background-size: 100% 100%;
+    height: 45vh;
+    background-repeat: no-repeat;
+
+}
+.layer2{
+    width: 100%;
+    height: 45vh;
+    background-color:rgba(214, 46, 51, 0.6);
+
+}
+.countt{
+    color: white;
+    border: 1px solid white;
+    padding: 60px;
+    width: 22%;
+    text-align: center;
+    font-size: 30px;
+}
+.dflex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+/* __________start contact__________ */
+.bgg{
+    height: 100vh;
+ }
+ .wid4{
+    background-color: white;
+    width: 85%;
+    margin: auto;
+    display: flex; 
+ }
+ .colorCharacyer{
+    color: rgba(214, 46, 51, 0.8);
+    font-size: 30px;
+    padding: 5px;
+ }
+.frm button{
+    width: 200;
+    margin: 48px;
+}
+
+.cnt button{
+    color: white;
+    border: 5px solid transparent;
+    background-color: rgba(214, 46, 51, 0.8);
+}
+.cnt button:hover{
+    transition-duration: .3s;
+    background-color: rgba(214, 46, 51, 0.6);
+
+}
+.contact1 p{
+    font-size:22px;
+    color: rgb(122,117,125);
+}
+.detail{
+    margin-top: 30px;
+}
+.lo{
+    display: flex;
+}
+.lo p{
+    padding-left: 10px;
+   
+}
+.lo i{
+    color: rgb(122,117,125);
+    font-size: 20px;
+    display: flex;
+}
+.addresscolor{
+    color: rgba(214, 46, 51, 0.8) !important;
+}
+.paa i{
+    color: rgb(122,117,125);
+   margin-right: 10px;
+   font-size: 20px;
+   width: 50px;
+   height: 50px;
+   border: 1px solid rgb(122,117,125);
+   text-align: center;
+   padding-top: 10px;
+}
+.paa i:hover{
+    color: white;
+   border: 1px solid rgba(214, 46, 51, 0.6);
+    background-color: rgba(214, 46, 51, 0.6);
+    transition-duration:  .3s;
+}
+.cent{
+    margin-left: 50px;
+}
+.dis{
+    width: 100%;
+}
+
+.contact2{
+    height: 90vh;
+display: flex;
+align-items:center ;
+
+}
