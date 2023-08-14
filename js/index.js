@@ -85,7 +85,7 @@ $('.fourH3').click(function () {
 
 
 // ___________________start counter days____________________________
-let countDownDate = new Date('nov 22, 2022 22:13:30').getTime();
+let countDownDate = new Date('nov 22, 2023 22:13:30').getTime();
 let counter = setInterval(()=>{
     let dateNow = new Date().getTime();
     let dateDiff = countDownDate - dateNow;
@@ -117,10 +117,10 @@ let counter = setInterval(()=>{
 $('#exampleFormControlTextarea1').keypress(function(){
     let count = 99;
     let lengthCharacter =document.getElementById('exampleFormControlTextarea1').value.length;
-        document.getElementById('numCharacyer').innerHTML=count-lengthCharacter;
+        document.getElementById('numCharacter').innerHTML=count-lengthCharacter;
  
         if(lengthCharacter>=100){
-        document.getElementById('numCharacyer').innerHTML='your available character finished';
+        document.getElementById('numCharacter').innerHTML='your available character finished';
         }
     })
 
@@ -128,10 +128,10 @@ $('#exampleFormControlTextarea1').keypress(function(){
         if(e.code=='Backspace'){
             let count = 100;
             let lengthCharacter =document.getElementById('exampleFormControlTextarea1').value.length;
-            document.getElementById('numCharacyer').innerHTML=count-(lengthCharacter-1);
+            document.getElementById('numCharacter').innerHTML=count-(lengthCharacter-1);
 
             if(lengthCharacter>101){
-            document.getElementById('numCharacyer').innerHTML='your available character finished';  
+            document.getElementById('numCharacter').innerHTML='your available character finished';  
             }
         }
     }) 
