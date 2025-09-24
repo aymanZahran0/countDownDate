@@ -13,15 +13,14 @@ $('#openNav').click(function(){
     if( $('.navbarr').css('width') === '0px'){
         $('.navbarr').show(0)
         $('.navbarr').animate({width:'300'},400)
-         $('#openNav').css('marginLeft' , '300px') 
-         openNav.innerHTML='☰ close'
+        $('#openNav').css('marginLeft' , '300px') 
+        openNav.innerHTML='☰ close'
     }
     else{
         $('.navbarr').animate({width:'0'},400)
         $('.navbarr').hide(0)
         $('#openNav').css('marginLeft' , '0px') 
         openNav.innerHTML='☰ open'
-
     }
 })
 
@@ -85,7 +84,7 @@ $('.fourH3').click(function () {
 
 
 // ___________________start counter days____________________________
-let countDownDate = new Date('nov 22, 2023 22:13:30').getTime();
+let countDownDate = new Date('nov 22, 2028 22:13:30').getTime();
 let counter = setInterval(()=>{
     let dateNow = new Date().getTime();
     let dateDiff = countDownDate - dateNow;
